@@ -276,3 +276,24 @@ background-image: url('../img/monitoricon.svg');
 .expertise__item-text {
   color: #777777;
 }
+
+/* MAGIC SECTION */
+.magic{
+  background-color: #f6f8fa;
+  background-image: url('../img/magic-bg.jpg');
+  background-repeat: no-repeat;
+  /* background-size: 50%; */
+  background-position: left;
+
+}
+.magic__inner{
+  max-width: 470px;
+  margin-left: auto;
+  padding: 100px 0 190px;
+}
+.magic__title{
+  margin-bottom: 67px;
+}
+.magic__text p{
+  margin-bottom: 25px;
+}
