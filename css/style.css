@@ -284,6 +284,7 @@ background-image: url('../img/monitoricon.svg');
   background-repeat: no-repeat;
   /* background-size: 50%; */
   background-position: left;
+  
 
 }
 .magic__inner{
@@ -296,4 +297,25 @@ background-image: url('../img/monitoricon.svg');
 }
 .magic__text p{
   margin-bottom: 25px;
+  max-width: 510px;
+}
+
+.portfolio{
+  padding: 140px 0 165px;
+}
+.portfolio__top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.portfolio__content{
+  column-count: 4;
+  column-gap: 22px;
+}
+.portfolio__item img{
+  width: 100%;
+}
+.portfolio__item{
+  margin-bottom: 20px;
 }
